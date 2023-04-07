@@ -1,23 +1,36 @@
-nav {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
-  
+
+.imagemLogo {
+    width: 75px;
+    height: 75px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 425px;
+}
+
 nav ul {
     display: flex;
-    list-style: none; 
-    margin: 5;
-    padding: 5;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-  
+
 nav li {
     padding: 5px;
-    margin: 0 10px; 
+    margin: 0 10px;
     border: .5px solid #000;
+    border-radius: 10%;
 }
-  
-  nav a {
-    text-decoration: none; 
-    color: #000; 
+
+nav a {
+    text-decoration: none;
+    color: #000;
 }
