@@ -5,6 +5,11 @@ html, body {
     color: #363636;
 }
 
+body {
+    background-image: url('/imagens/Logo-Recycle.jpg');
+    background-position: center;
+}
+
 header {
     display: flex;
     justify-content: space-between;

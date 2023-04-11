@@ -4,6 +4,8 @@ body {
     overflow-x: hidden;
     font-family: sans-serif;
     color: #363636;
+    background-image: url('/imagens/Logo-Recycle.jpg');
+    background-position: center;
   }
   
   header {
@@ -45,7 +47,8 @@ nav a {
 }
 
   footer {
-    margin-top: 430px;
+    position: fixed;
+    bottom: 0;
     width: 100vw;
     height: 60px;
     text-align: center;
