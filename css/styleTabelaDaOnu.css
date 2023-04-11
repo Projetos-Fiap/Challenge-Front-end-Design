@@ -2,6 +2,8 @@ body {
     height: 100%;
     margin: 0;
     font-family: sans-serif;
+    color: #363636;
+    overflow-x: hidden;
   }
   
   header {
@@ -10,46 +12,53 @@ body {
     align-items: center;
     padding: 10px;
     width: 1100px;
-  }
-  
-  .imagemLogo {
+    margin: auto;
+}
+
+.imagemLogo {
     width: 75px;
     height: 75px;
-  }
-  
-  nav {
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  nav li {
+}
+
+nav li {
     padding: 5px;
     margin: 0 10px;
-    border: .5px solid #000;
+    border: .5px solid #4f4f4f;
     border-radius: 10%;
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
-    color: #000;
-  }
+    color: #4f4f4f;
+}
 
   footer {
-    position: fixed;
-    bottom: 0;
+    margin-top: 460px;
     width: 100vw;
     height: 60px;
     text-align: center;
-    border-top: 1px solid black;
+    border-top: 1px solid grey;
     box-sizing: border-box;
-  }
+    font-size: 12px;
+    color: grey;
+}
+
+footer > p {
+    align-items: center;
+    padding-top: 10px;
+}
   
   .primeiraSessao {
     text-align: center;
@@ -60,7 +69,7 @@ body {
   }
 
   .primeiraSessao > img {
-    width: 300px;
-    height: 120px;
+    width: 700px;
+    height: 300px;
     padding-top: 40px;
   }
